@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Student Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">Yash Tiwari Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Yash Tiwari</span></h1>
+            <p class="typewriter">Computer Science / Finance Student @ Rutgers | Developer | Problem Solver</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Currently a student at Rutgers University, pursuing a degree in CS and Finance. I am a passionate developer and problem solver. I am currently working towards multiple projects and learning new technologies to grow in this ever evolving field.
+                <p>I am a quick learner and always looking for new opportunities at work and career in order to grow and learn more in the field of commputer science and finance</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <h3>Education</h3>
+                    <p>CS/Finance Student @ Rutgers, grad : 2027</p>
+                </div>
+                <div class="stat">
+                    <h3>Experience</h3>
+                    <p>2+ Years Coding</p>
+                </div>
+                <div class="stat">
+                    <h3>Projects</h3>
+                    <p>5+ Completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project1.png" alt="Project One Screenshot">
+                </div>
+                <h3>Project One - Instagram Follow Checker</h3>
+                <p>Takes in a zip file from Instagram and reads the data using JSZip, then it checks if the user follows the account or is not followed back by an account and displays the data.</p>
+                <div class="project-tags">
+                    <span>JS / HTML / CSS</span>
+                    <span>JSZip</span>
+                </div>
+                <a href="https://github.com/Yasht14j/WhoFollowsWho-InstaFollowCheck" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project2.png" alt="Project Two Screenshot">
+                </div>
+                <h3>Project Two - Weather App</h3>
+                <p>Using OpenWeatherAPI, it displays the weather of the city, and includes wind speed, humidity, temperature and more for any city around the world</p>
+                <div class="project-tags">
+                    <span>JS / CSS / HTML</span>
+                    <span>API </span>
+                </div>
+                <a href="https://github.com/Yasht14j/WeatherApp" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project3.png" alt="Project Three Screenshot">
+                </div>
+                <h3>Project Three - Calculator App</h3>
+                <p>This is a basic calculator app for basic calculations using simple html, css and js</p>
+                <div class="project-tags">
+                    <span>JS / CSS / HTML</span>
+                    
+                </div>
+                <a href="https://github.com/Yasht14j/CalculatorApp" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Web Technologies</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>findyasht@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <p>github.com/Yasht14j</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p>linkedin.com/in/yash-tiwari-16593b27b</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        
+        <div class="social-links">
+            <a href="https://github.com/Yasht14j"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yash-tiwari-16593b27b/"><i class="fab fa-linkedin"></i></a>
+          
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
